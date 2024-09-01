@@ -87,7 +87,7 @@ def get_chat_response(user_message,pdf_text,pdf_text_jd):
     gpt_response = openai.chat.completions.create(model="gpt-3.5-turbo",messages= messages)
     chat_message_content = gpt_response.choices[0].message.content
     save_messages(user_message,chat_message_content)
-    print(f"Diagonal_lab_bot : {chat_message_content}")
+    print(f"bot : {chat_message_content}")
     return chat_message_content
 
 
