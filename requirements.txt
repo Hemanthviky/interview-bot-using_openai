@@ -1,0 +1,12 @@
+os
+openai
+json
+wave
+pyaudio
+dotenv
+keyboard
+requests
+io
+pydub
+PyPDF2
+tkinter
